@@ -2,6 +2,7 @@
 This competition consists of two stages, each lasting one week:
 
 1- Armut Project
+
 Armut is an online marketplace that meets customers with local service providers. When a customer creates a job request, ML-based matching algorithms are triggered and determine possible service providers. Finally, job opportunities are sent to those providers. If a provider wants to quote such a job opportunity, then the platform makes them meet. In this project, we provide you with the job opportunity dataset and ask you to predict which opportunities were quoted and which were not.
 
 ## Dataset Description
@@ -38,6 +39,7 @@ OUTER_LOC: Outer (Main) Location of the Provider. (like “Beşiktaş”)
 INNER_LOC: Inner (Sub) Location of the Provider. (like “Bebek Mh.”)
 
 2- Invent Analytics Project
+
 Seasonal demand planning is very crucial for retailers as it gives them a strategic plan on how they will meet the demand throughout the whole season. The constantly transitioning circumstances, on and off promotions, changing gustos, newly launching products, or new additions to the store chain are what makes it a little bit complex problem. Despite the complexities that the problem has, the ultimate gains are preventing stock-outs that cause loss of money and holding excess stock causing storage costs and product expirations, thanks to seasonal demand forecasting executed well in advance. BUYAK challenges its competitors to build a model that yields the most accurate product forecasts for the seasons.
 
 ## Dataset Description
