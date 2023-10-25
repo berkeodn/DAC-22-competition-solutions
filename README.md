@@ -10,33 +10,50 @@ Armut is an online marketplace that meets customers with local service providers
 TRAIN.csv: - there is a train data. ISQUOTED in this file is our target variable.
 
 TEST.csv - the test set
+
 sample_submission.csv - a sample submission file in the correct format
+
 JOBDETAILS.csv - supplemental information about the data
+
 JOBQUESTIONS.csv - supplemental information about the data
+
 ProLoc.csv - supplemental information about the data
 
 ### Data Fields
 ### Train-Test Set
 OPP_CREATEDATE: Opportunity Create Date for Provider
+
 JOBID: Unique identifier for jobs
+
 PROID: Unique identifier for providers
+
 ISQUOTED: Provider was quoted such opportunity or not. It is our Target Variable
 
 ### Job Details
 JOB_CREATEDATE: Create Date for each job. Jobs are created by customers.
+
 JOBID: Unique identifier for jobs
+
 SERVICEID: Unique identifier for Serviceid. Jobs are categorized under services like Cleaning, Moving, Private Lesson etc.
+
 OUTER_LOC: Outer (Main) Location of the job. (like “Beşiktaş”)
+
 INNER_LOC: Inner (Sub) Location of the job. (like “Bebek Mh.”)
+
 JOB_PRICE: Average Price of each job
 
 ### JobQuestions
 JOBID: Unique identifier for jobs
+
 QUESTIONID: Unique identifier for job specific questions. Like “Hangi konuda özel ders almak istiyorsunuz?”
+
 ANSWERID: Unique identifier for job specific answers. Like “Matematik | Fizik”
-ProLocations
+
+### ProLocations
 PROID: Unique identifier for providers
+
 OUTER_LOC: Outer (Main) Location of the Provider. (like “Beşiktaş”)
+
 INNER_LOC: Inner (Sub) Location of the Provider. (like “Bebek Mh.”)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
