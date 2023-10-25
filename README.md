@@ -6,7 +6,7 @@ This competition consists of two stages, each lasting one week:
 Armut is an online marketplace that meets customers with local service providers. When a customer creates a job request, ML-based matching algorithms are triggered and determine possible service providers. Finally, job opportunities are sent to those providers. If a provider wants to quote such a job opportunity, then the platform makes them meet. In this project, we provide you with the job opportunity dataset and ask you to predict which opportunities were quoted and which were not.
 
 ## Dataset Description
-# File Descriptions
+### File Descriptions
 TRAIN.csv: - there is a train data. ISQUOTED in this file is our target variable.
 TEST.csv - the test set
 sample_submission.csv - a sample submission file in the correct format
