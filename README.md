@@ -56,7 +56,7 @@ OUTER_LOC: Outer (Main) Location of the Provider. (like “Beşiktaş”)
 
 INNER_LOC: Inner (Sub) Location of the Provider. (like “Bebek Mh.”)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2- Invent Analytics Project
 
@@ -67,26 +67,26 @@ Seasonal demand planning is very crucial for retailers as it gives them a strate
 The competitors will be asked to predict the total product demand for each week in the season. The training data shows the sales quantity for each product and week and some additional informative metrics. There are also 2 additional file that show the product attributes and holidays that may shift the demand.
 
 ### File Descriptions and Data Field Information
-Train.csv
+### Train.csv
 -Shows the target column sales_amount by date (representing weeks) and product_id. There is a unique id column corresponding to each row.
 
 -The price column shows for how much the product was selling in total that week whereas the discount column shows the discount percentage that was applied for the product that week.
 
 -The on-promotion column shows whether the specified product was on promotion that week or not. (1 for on promotion, 0 otherwise) In addition, promotion type shows the promotion description and type.
 
--The sThe season type column shows which season the specific product belongs to.
+-The season type column shows which season the specific product belongs to.
 
 -The store count column shows how many stores this product was trading in.
 
-Test.csv
+### Test.csv
 -Test data shows the date and product_id and season type to be predicted along with store count, on promotion and promotion type.
 
 -The id column in the test data matches the id column in the submission file.
 
-Sample_submission.csv
+### Sample_submission.csv
 -Submission file where the predicted numbers to be provided for each id in.
 
-Product.csv
+### Product.csv
 -The id column shows the corresponding product_id’ along with the other attributes of the products.
 
 -Category_1, category_2 and category_3 represent the hierarchy levels.
@@ -95,8 +95,8 @@ Product.csv
 
 -Please note that there are some products with missing values for some of the columns.
 
-Holidays.csv
+### Holidays.csv
 -The file shows the days and the holiday descriptions that can be utilized building the model.
 
-Submission File
+### Submission File
 -For each id in the test file, the competitors should predict the demand quantity. The expected file should look as below with a header in it.
