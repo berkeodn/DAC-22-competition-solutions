@@ -7,7 +7,8 @@ Armut is an online marketplace that meets customers with local service providers
 
 ## Dataset Description
 ### File Descriptions
-TRAIN.csv: - there is a train data. ISQUOTED in this file is our target variable. /n
+TRAIN.csv: - there is a train data. ISQUOTED in this file is our target variable.
+
 TEST.csv - the test set
 sample_submission.csv - a sample submission file in the correct format
 JOBDETAILS.csv - supplemental information about the data
